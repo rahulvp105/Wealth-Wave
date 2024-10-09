@@ -1,0 +1,347 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+
+#title{
+  background-color: orange;
+  padding: 7% 10%;
+  scroll-behavior: smooth;
+}
+.container{
+  padding: 3% 15%;
+  padding-bottom: 7%;
+  top: 4%;
+}
+.navbar{
+  background-color: rgb(6, 17, 60);
+  height: 5rem;
+  padding: 20px;
+}
+
+.logo{
+  border-radius: 12px;
+  height: 65px;
+  width: 110px;
+}
+
+#title{
+  border-radius: 12px;
+}
+
+@media(max-width: 991px) {
+  .sidebar{
+    background-color: rgb(6, 17, 60);
+  }
+}
+/* 
+.w-nav{
+  margin-top: 40px;
+} */
+.navbar-brand{
+  font-family: "Ubuntu";
+}
+
+.nav-link{
+  font-size: 2rem;
+}
+.nv{
+  padding: 4rem 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+.nav-link{
+  font-size: 1rem;
+  font-family: 'Montserrat-Black', sans-serif;
+  color: black;
+}
+
+ #title h1{
+  font-size: 3rem;
+  line-height: 1.2;
+}
+#title .desc{
+  color: #404040;
+  font-size: larger;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.image{
+  height: 27rem;
+  width: 22rem;
+  position: absolute;
+  right: 12%;
+  bottom: 5%;
+}
+
+.service-card{
+  height: 22rem;
+  width: 18rem;
+  
+}
+.ins-img{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%
+}
+@media (max-width: 1028px){
+
+#title{
+  text-align: center;
+}
+
+  .image{
+    position: static;
+  }
+}
+
+#numbers{
+  margin: 6%;
+}
+
+.users h1{
+  font-size: 4rem;
+  background-image: url("https://assets.website-files.com/624194472db3153002097068/624835960d042904335bf96e_Vector%20115.svg");
+  background-repeat: no-repeat;
+  background-position: 1% 90%;
+/* background-size: contain; */
+background-repeat: no-repeat;
+background-attachment: scroll;
+-webkit-transition-property: all;
+transition-property: all;
+}
+
+#experts{
+    background-color: rgb(6, 17, 60);
+padding: 5% 8%;
+text-align: center;
+}
+
+#experts h1{
+  color: white;
+  text-align: center;
+}
+.card{
+  margin: 8%;
+}
+
+
+#testimonials{
+  /* padding: 7% 15%; */
+  text-align: center;
+  background-color: orange;
+  color: black;
+}
+.testimonials-img{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+@media (max-width: 1028px){
+
+#experts{
+  text-align: center;
+}
+}
+
+#enroll{
+  margin: 7%;
+  text-align: center;
+}
+
+#club{
+  background-color: orange;
+}
+
+.com-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 30px;
+}
+
+.underline{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.com-desc{
+  font-size: 20px;
+}
+
+.cl-img{
+  width: 80%;
+  height: auto;
+  margin-bottom: 60px;
+  margin-left: 100px;
+  border-radius: 12px;
+
+}
+
+.cl-btn{
+  margin:0 auto;
+  display:block;
+ 
+}
+
+#footer{
+  text-align: center;
+  background-color: rgb(6, 17, 60);
+  padding: 5%;
+  color: white;
+}
+.social-media{
+  width: 2%;
+  margin: 2%;
+}
+@media (max-width: 1028px){
+
+.social-media{
+  width: 5%;
+}
+}
+
+.about p{
+  margin-top: 30px;
+  color:  #404040;
+  ;
+}
+.about-img{
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+
+.vision h1{
+  margin-top: 50px;
+}
+
+.vision p{
+  margin-top: 180px;
+}
+
+.main-btns{
+  margin-right: -30rem;
+}
+
+.nav-it{
+  margin-top: -40px;
+}
+
+@media (max-width: 991px) {
+  .w-s{
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #404040;
+  }
+}
+
+.w-s{
+  background-color: #404040;
+}
+
+.courses{
+  margin-top: 5rem;
+}
+.details-link{
+  float: right;
+  color: brown;
+}
+
+
+
+
+.sip-calculator {
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.sip-calculator h2 {
+  color: #333;
+  text-align: center;
+  
+}
+
+.sip-calculator form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sip-calculator label {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.sip-calculator input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.sip-calculator button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sip-calculator button:hover {
+  background-color: #0056b3;
+}
+
+.sip-calculator .result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+.fake-dark-mode {
+  filter: invert(100%);
+  transition: all 0.5s;
+}
+
+.btn-fake-dark-mode {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 16px;
+  line-height: 1;
+  font-size: 26px;
+  background-color: #ffe8cc;
+  border: none;
+}
